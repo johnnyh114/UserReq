@@ -1,2 +1,97 @@
 This is to write the User Requirements for the Software Eng.
 project and to practice using Git and GitHub.
+
+
+Requirement: Registration as student or Teacher
+
+Rationale: The student or teacher must be able to register to the system so that they are connected to the webserver.
+		   During registration process they will be asked their names, and last names, which university they are attending, 
+		   their student/teacher ID, passwords for the account, university email. The student or teacher would not have the option
+		    of taking attendance if they have not registered.
+
+Source: Serj Agopian
+
+
+Requirement: Login
+
+Rationale: The student or teacher will login so that the system tools are avialable to them. For example, to take attendace, check the attendance sheet
+		   homeworks.
+
+Source: Serj Agopian
+
+
+Requirement: Teachers shall add their course.
+
+Rationale:  The teacher must add courses specifying which semester, time, days, room number, approximate size of room, course name, course number, so that
+            it would be available for students to register for these courses.
+
+Source: Serj Agopian
+
+
+Requirement: Students shall register for their courses.
+
+Rationale: The student must register for courses that the teachers have created so that their attendance can be taken, and later can view their absences
+           and homewworks that are assigned to the respective courses
+
+Source: Serj Agopian
+
+
+Requirements: Teachers shall be able to take attendance only when the class is assigned to start.
+
+Rationale:  Teachers will have a button available to press only when the course has started since if the button is pressed during wrong time
+            it will lead to wrong attendance at the end of the semester and for that day. When the button is pressed the students locations
+            will be taken through their phones with the help of location services
+
+Source: Serj Agopian
+
+
+Requirements: The system shall save the attendance in its memory
+
+Rationale: The attendance that has been taken must be saved in the database so that it can be later viewed by the teacher and students.
+
+Source: Serj Agopian
+
+
+Requirements: The system shall show the attendance of any course at any specific date or total of attendances.
+
+Rationale: The attendance should be able to viewed by the teacher of the whole class in an organized manner by giving a range of dates
+           or by giving one date only. 
+
+Source: Serj Agopian
+
+
+Requirement: Students shall be able to see their number of absences
+
+Rationale: Students must have available the number of absences for their respective course for them only always available.
+
+Source: Serj Agopian
+
+
+Requirement: Teacher shall be able to take attendance at any given time of class
+
+Rationale: Teacher may want to view if any student is late to class after the first time he checked attendance
+
+Source: Serj Agopian
+
+
+Requirement: System shall send push notifications when student has almost exceeded number of allowed absences
+
+Rationale: Students will have a warning of approaching the danger marker just in case they are not viewing their own absences and keeping count
+           so that the student will have no excuse of not knowing they were counter as absent
+
+Source: Serj Agopian
+
+
+Requirement: System shall allow teachers to add homeworks to respective courses
+
+Rationale:  With the help of the system teachers will assign homeworks to a class
+
+Source: Serj Agopian
+
+
+Requirements: System shall send notifications to students in case homeworks have been assigned
+
+Rationale: The student will be informed that a homework is assigned and sent a push notification. He will be able to view details of homeworks through
+           the system
+
+Source: Serj Agopian
